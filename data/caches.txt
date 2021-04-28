@@ -1,0 +1,5 @@
+0;Cache do Coteiro;41.188037;-8.6861818;2;33812
+1;Cache Snt. Ovideo;41.1800862;-8.6886743;2;33812
+2;Ponte D. Luis II;41.1902015;-8.6611609;3;32134
+3;Casa Porto, Salgueirais;41.1880888;-8.6545109;1;32333
+4;Jardim arca D'agua (perto do lago);41.1790796;-8.6737177;1;32333
