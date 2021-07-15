@@ -1,28 +1,33 @@
 package edu.ufp.inf.lp2.projeto.Geocaching;
 
-import edu.princeton.cs.algs4.RedBlackBST;
-
-
 public class Log {
 
-  /**preciso de Log_id??**/
-  public int log_id;
   public Date data;
-
-  private RedBlackBST<Date, User> users = new RedBlackBST<>();
+  public User user;
   public String message;
 
-  public Log(RedBlackBST<Date, User> users, String message) {
-    this.users = users;
+
+  public Log(Date data, User user, String message) {
+    this.data = data;
+    this.user = user;
     this.message = message;
   }
 
-  public RedBlackBST<Date, User> getUsers() {
-    return users;
+
+  public Date getData() {
+    return data;
   }
 
-  public void setUsers(RedBlackBST<Date, User> users) {
-    this.users = users;
+  public void setData(Date data) {
+    this.data = data;
+  }
+
+  public User getUser() {
+    return user;
+  }
+
+  public void setUser(User user) {
+    this.user = user;
   }
 
   public String getMessage() {
@@ -33,11 +38,13 @@ public class Log {
     this.message = message;
   }
 
-  public Date getData() {
-    return data;
-  }
-
-  public void setData(Date data) {
-    this.data = data;
+  @Override
+  public String toString() {
+    return "Log{" +
+            "data=" + data +
+            ", user_id:" + user.getId_number() +
+            ", user name:" + user.getName() +
+            ", message='" + message + '\'' +
+            '}';
   }
 }

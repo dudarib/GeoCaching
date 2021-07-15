@@ -1,9 +1,23 @@
 package edu.ufp.inf.lp2.projeto.Geocaching;
 
-import java.util.List;
+import edu.princeton.cs.algs4.SeparateChainingHashST;
+
 
 public class AdminUser extends premiumUser {
-    public AdminUser(int id_number, String name, Point point, List<Cache> caches) {
-        super(id_number, name, point, caches);
+
+    public AdminUser(int id_number, String name, Point point, SeparateChainingHashST<Integer, Cache> caches_userST) {
+        super(id_number, name, point, caches_userST);
+    }
+
+    public AdminUser(int id_number, String name, double x, double y, SeparateChainingHashST<Integer, Cache> caches_userST) {
+        super(id_number, name, x, y, caches_userST);
+    }
+
+    public AdminUser(int id_number, String name, Point point) {
+        super(id_number, name, point);
+    }
+
+    public AdminUser(int id_number, String name, double x, double y) {
+        super(id_number, name, x, y);
     }
 }

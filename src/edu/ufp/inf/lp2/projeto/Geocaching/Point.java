@@ -10,6 +10,7 @@ public class Point {
 
     private double x;
     private double y;
+    int id;
 
     public Point(double x, double y) {
         this.x = x;
@@ -50,6 +51,14 @@ public class Point {
 
     public void moveY(float delta) {
         this.y += delta;
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
     }
 
     public void move(double x, double y) {

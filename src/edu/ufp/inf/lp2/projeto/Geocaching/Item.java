@@ -7,10 +7,16 @@ public class Item {
   public String name;
   public String type;
 
+
   public Item(int item_id, String name, String type) {
     this.item_id = item_id;
     this.name = name;
     this.type = type;
+  }
+
+
+  public Item(String name) {
+    this.name = name;
   }
 
   public int getItem_id() {
@@ -35,5 +41,12 @@ public class Item {
 
   public void setType(String type) {
     this.type = type;
+  }
+
+  @Override
+  public String toString() {
+    return "Item{" +
+            "name='" + name + '\'' +
+            '}';
   }
 }

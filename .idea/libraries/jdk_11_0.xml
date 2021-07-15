@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="jdk-11.0">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/../../../../../../../Program Files/Java/jdk-11.0.9" />
+      <root url="file://$PROJECT_DIR$/../../../../../../../Program Files/Java/javafx-sdk-11.0.2" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

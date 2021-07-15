@@ -1,7 +1,7 @@
 id_num;Name; Type
-4;Joana;basic
 1;Manuel;basic
-5;Maria;premium
 2;Pedro;basic
-6; Filomena;admin
 3;Fernando;admin
+4;Joana;basic
+5;Maria;premium
+6; Filomena;admin

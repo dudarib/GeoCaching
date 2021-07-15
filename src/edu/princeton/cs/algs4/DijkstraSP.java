@@ -32,6 +32,8 @@
 package edu.princeton.cs.algs4;
 
 
+import edu.ufp.inf.lp2.projeto.Geocaching.Connection;
+
 /**
  * The {@code DijkstraSP} class represents a data type for solving the
  * single-source shortest paths problem in edge-weighted digraphs

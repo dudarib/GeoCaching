@@ -687,6 +687,20 @@ public class RedBlackBST<Key extends Comparable<Key>, Value> {
         return true;
     }
 
+    //ADICIONADO
+    public Iterable<Key> emordem() {
+        Queue<Key> queue = new Queue<Key>();
+        emordem(root, queue);
+        return queue;
+    }
+
+    private void emordem(Node x, Queue<Key> queue) {
+        if (x == null) return;
+        emordem(x.left, queue);     //arvore esquerda
+        queue.enqueue(x.key);       //nó
+        emordem(x.right, queue);    //arvore direita
+    }
+
     // Does the tree have no red right links, and at most one (left)
     // red links in a row on any path?
     private boolean is23() {

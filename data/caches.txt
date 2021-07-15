@@ -1,5 +1,19 @@
-0;Cache do Coteiro;41.188037;-8.6861818;2;33812
-1;Cache Snt. Ovideo;41.1800862;-8.6886743;2;33812
-2;Ponte D. Luis II;41.1902015;-8.6611609;3;32134
-3;Casa Porto, Salgueirais;41.1880888;-8.6545109;1;32333
-4;Jardim arca D'agua (perto do lago);41.1790796;-8.6737177;1;32333
+cache_id;cache_type;lat;long;zone;n_items;items[]
+4;basic;41.158881;-8.6337921;norte;1;flauta;
+8;basic;40.2094433;-8.4208601;centro;2;canudo;capa;
+12;basic;40.6597787;-7.9136921;centro;1;espada;
+16;premium;38.7527152;-9.1869627;sul;0
+1;basic;41.1720859;-8.6148178;norte;3;canudo;livro;oculos;
+5;premium;41.1492281;-8.6120275;norte;0
+9;basic;40.2027321;-8.4333746;centro;0
+13;basic;38.6942546;-9.2129457;sul;0
+17;basic;38.7612341;-9.1639843;sul;0
+2;basic;41.1605747;-8.5855818;norte;3;bola;brinquedo;camisola;
+6;basic;41.1504982;-8.6654695;norte;0
+10;premium;40.188891;-8.410378;centro;2;borracha;chaves;
+14;basic;38.7288464;-9.1481854;sul;0
+18;basic;38.9369329;-9.3290594;sul;0
+3;basic;41.1666825;-8.6751895;norte;3;pedra;flor;areia;
+7;basic;41.2421226;-8.6807401;norte;1;bilhetes_aviao;
+11;basic;40.6394116;-8.6621375;centro;1;ovos_moles;
+15;basic;38.7756417;-9.1325313;sul;1;bilhetes_aviao;
